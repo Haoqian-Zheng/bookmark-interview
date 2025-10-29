@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bookmark-interview-backend"
+version = "1.0.0"
+description = "Django backend for bookmark manager interview"
+authors = ["Interview Team"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "5.0.1"
+djangorestframework = "3.14.0"
+django-cors-headers = "4.3.1"
+djangorestframework-simplejwt = "5.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
